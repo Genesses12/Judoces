@@ -1,0 +1,14 @@
+.footer_principal {
+  text-align: center;
+  font-size: 20px;
+  background-color: #e5dbd0;
+  height: 80px;
+}
+.footer_principal > p {
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  .footer_principal {
+    height: auto;
+  }
+}

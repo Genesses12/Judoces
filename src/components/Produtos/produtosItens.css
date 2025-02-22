@@ -1,0 +1,14 @@
+.Container_Itens {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .Container_Itens {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,70 @@
+/* Estilo geral do nav */
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 108px;
+  width: auto;
+  border: solid 1px;
+  align-items: center;
+  background-color: #e5dbd0;
+  font-size: 20px;
+  position: static;
+}
+
+/* Estilo do logo */
+img {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+/* Estilo da lista de navegação */
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Estilo dos links */
+nav > ul > li > a {
+  text-decoration: none;
+  color: #333; /* Cor inicial */
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Suaviza as transições */
+}
+
+/* Efeito de mudança de cor e sublinha animada */
+nav > ul > li > a:hover {
+  color: #007bff; /* Cor ao passar o mouse */
+}
+
+/* Efeito de sublinha (underline animada) */
+nav > ul > li > a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease;
+}
+
+/* Efeito de expandir a sublinha ao passar o mouse */
+nav > ul > li > a:hover::after {
+  width: 100%;
+}
+
+/* Efeito de zoom no link */
+nav > ul > li > a:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do link */
+  transition: transform 0.3s ease; /* Suaviza o aumento de tamanho */
+}
+
+@media (max-width: 768px) {
+  .buttan {
+    display: none;
+  }
+}
