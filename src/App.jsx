@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Main from "./components/main/Main";
 import ProdutoItens from "./components/Produtos/ProdutosItens";
 import Footer from "./components/Footer/Footer";
+import WhatsAppButton from "./components/Botton/WhatsAppButton";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <h1>Conheça todos os nossos sabores</h1>
+      <WhatsAppButton />
       <ProdutoItens />
       <Footer />
     </>

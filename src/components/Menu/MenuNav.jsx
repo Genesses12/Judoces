@@ -1,6 +1,7 @@
 import "./MenuNav.css";
 import Logo from "../../assets/logo.png";
 const MenuNav = () => {
+  const whatsappNumber = "5511999999999";
   return (
     <nav className="menu-nav">
       <img src={Logo} alt="Logo" className="logo" />
@@ -12,7 +13,9 @@ const MenuNav = () => {
           <a href="">Produtos</a>
         </li>
         <li className="nav-item">
-          <a href="">Contato</a>
+          <a href={`https://wa.me/${whatsappNumber}`} target="_blank">
+            Contato
+          </a>
         </li>
       </ul>
     </nav>

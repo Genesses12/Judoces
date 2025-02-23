@@ -6,27 +6,28 @@ import KiteFestas from "../../assets/imgProdutos/kit_festa.png";
 import Salgados from "../../assets/imgProdutos/bg_salgados.png";
 
 const ProdutoItens = () => {
+  const whatsappNumber = "5511999999999";
   return (
     <div className="Container_Itens">
       <CardItens
         img={Bolos}
         texto="Bolos"
-        link={"https://www.tudogostoso.com.br/receita/29124-bolo-simples.html"}
+        link={`https://wa.me/${whatsappNumber}`}
       />
       <CardItens
         img={Doces}
         texto="Doces"
-        link={"https://www.tudogostoso.com.br/receita/29124-bolo-simples.html"}
+        link={`https://wa.me/${whatsappNumber}`}
       />
       <CardItens
         img={KiteFestas}
         texto="Kit festas"
-        link={"https://www.tudogostoso.com.br/receita/29124-bolo-simples.html"}
+        link={`https://wa.me/${whatsappNumber}`}
       />
       <CardItens
         img={Salgados}
         texto="Salgados"
-        link={"https://www.tudogostoso.com.br/receita/29124-bolo-simples.html"}
+        link={`https://wa.me/${whatsappNumber}`}
       />
     </div>
   );

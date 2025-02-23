@@ -1,3 +1,27 @@
+.whatsapp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  background-color: #25d366; /* Cor do WhatsApp */
+  color: white;
+  padding: 20px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
 @media (max-width: 768px) {
   .container {
     display: block;
