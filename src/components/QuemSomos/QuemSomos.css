@@ -1,0 +1,23 @@
+.quem-somos {
+  background-color: #fff7f1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #d2691e;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #5a3e36;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}

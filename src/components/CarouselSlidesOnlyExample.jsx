@@ -1,7 +1,7 @@
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
-import Banner from "../assets/BannerMes.png";
-import Banner2 from "../assets/BannerPet.jpg";
-import Banner3 from "../assets/BannerPistache.png";
+import Banner from "../assets/banner-de-venda.avif";
+import Banner2 from "../assets/bannerinterno.webp";
+import Banner3 from "../assets/kitcodes.jpg";
 
 export const CarouselSlidesOnlyExample = () => {
   return (
